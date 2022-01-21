@@ -21,4 +21,4 @@ jobs:
     - name: Restore dependencies
       run: msbuild /t:restore
     - name: Build
-      run: msbuild
+      run: msbuild /verbosity:d
